@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<!-- 缩放式侧滑（类手机QQ） -->
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable mui-scalable container">
+			<!-- 菜单容器 -->
+			<aside class="mui-off-canvas-left mui-transitioning" id="offCanvasSide">
+				<div class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<!-- 菜单具体展示内容 -->
+						<ul class="mui-table-view" style="margin-top: 50%; background-color: #333; color: white; text-align: center;">
+							<li class="mui-table-view-cell" style="border-style: none; font-size: 1.4em;">
+								<a class="mui-navigate-right" " >
+										ALEJANDRO
+									</a>
+								</li>
+								<li class="
+								 mui-table-view-cell">
+									<a class="mui-navigate-right">
+										SEX
+									</a>
+							</li>
+							<li class="mui-table-view-cell">
+								<a class="mui-navigate-right">
+									LOVE
+									<!-- ZEY -->
+								</a>
+							</li>
+						</ul>
+
+
+					</div>
+				</div>
+			</aside>
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap mui-transitioning">
+				<!-- 主页面标题 -->
+				<header class="mui-bar mui-bar-nav" style="box-shadow:0 0 8px 0 rgba(0, 0, 0, 0.1); background-color: white;">
+					<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide" style="color: #000000; font-weight: 600;"></a>
+					<h1 class="mui-title" style="font-size: 1.2em;">ALEJANDRO</h1>
+				</header>
+				<nav class="mui-bar mui-bar-tab" style="background-color: white; box-shadow:0 0 8px 0 rgba(0, 0, 0, 0.1);">
+					<a class="mui-tab-item mui-active">
+						<span class="mui-tab-label">ALE</span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-tab-label">JANDRO</span>
+					</a>
+				</nav>
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-row mui-scroll">
+						<div class="mui-col-sm-6 mui-col-xs-12">
+							<div style="width:95%;height:30rem;background-color:white; border-radius:5px;box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1); margin: 1.5rem auto;text-align:center;">
+							<img src="img/IKEA-1.jpg"/ style="height:75%;margin:auto;display:block;padding-top:1rem;">
+							<h3 style="margin:2rem 1rem;">ALEJANDRO IN IKEA</h3>
+							<p style="color:grey;font-size:0.8em;margin:0.5rem 1rem;">shot on 2019-07-11</p>
+							</div>
+						</div>
+						<div class="mui-col-sm-6 mui-col-xs-12">
+							<div style="width:95%;height:20rem;background-color:white; border-radius:5px;box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1); margin: 1.5rem auto;text-align:center;">
+							<img src="img/IKEA-8.jpg"/ style="height:55%;margin:auto;display:block;padding-top:1rem;">
+							<h3 style="margin:3rem;">IN DEPRESSION</h3>
+							<p style="color:grey;font-size:0.8em;margin:0.5rem 1rem;">shot on 2019-07-11</p>
+							</div>
+						</div>
+						<div class="mui-col-sm-6 mui-col-xs-12">
+							<div style="width:95%;height:20rem;background-color:white; border-radius:5px;box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1); margin: 1.5rem auto;text-align:center;">
+							<img src="img/IKEA-7S.jpg"/ style="height:55%;margin:auto;display:block;padding-top:1rem;">
+							<h3 style="margin:3rem 1rem;">What's Your Problem</h3>
+							<p style="color:grey;font-size:0.8em;margin:0.5rem 1rem;">shot on 2019-07-11</p>
+							</div>
+						</div>
+						<div class="mui-col-sm-6 mui-col-xs-12">
+							<div style="width:95%;height:30rem;background-color:white; border-radius:5px;box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1); margin: 1.5rem auto;text-align:center;">
+							<img src="img/IKEA-9.jpg"/ style="height:75%;margin:auto;display:block;padding-top:1rem;">
+							<h3 style="margin:2rem 1rem;">ALEJANDRO'S LOVE</h3>
+							<p style="color:grey;font-size:0.8em;margin:0.5rem 1rem;">shot on 2019-07-11</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="mui-off-canvas-backdrop"></div>
+		</div>
+		</div>
+	</body>
+			<script type="text/javascript" charset="utf-8">
+				mui.init();
+				mui('.mui-scroll-wrapper').scroll({
+		deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+	});
+			</script>
+</html>
